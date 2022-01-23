@@ -26,14 +26,14 @@ public class AppTest {
 		driver.get("https://admin.pscollege841.exam.ly/");
 		Thread.sleep(5000);  
 		String title = driver.getTitle();
-		Assert.assertEquals(title, "PS College");
+		Assert.assertEquals(title, "College");
 	}
 	@Test
 	public void TestCase_2() throws InterruptedException {
 		driver.get("https://admin.pscollege841.exam.ly/");
 		Thread.sleep(5000);  
 		String title = driver.getTitle();
-		Assert.assertEquals(title, "PS College");
+		Assert.assertEquals(title, "College");
 	}
 
 	@AfterTest
